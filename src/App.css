@@ -1,0 +1,25 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section styles */
+section {
+  padding: 4rem 0;
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 2rem 0;
+  }
+} 
